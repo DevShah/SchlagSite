@@ -776,18 +776,24 @@ nav#menu #menu-nav li a:hover {
    About Section
 ================================================== */
 
+
 .profile-name {
-	margin-bottom: 15px;	
+	margin-bottom: 10px;
+	padding-left: 25px;	
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;	
 }
 
 .image-wrap {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
 	cursor: pointer;
 }
 
@@ -862,7 +868,7 @@ nav#menu #menu-nav li a:hover {
 
 .social-icons li {
 	display: inline-block;
-	margin-left: 15px;	
+	margin-left: 0px;	
 }
 
 .social-icons li:first-child {
@@ -993,6 +999,11 @@ nav#menu #menu-nav li a:hover {
    Twitter Feed
 ================================================== */
 
+#twitter-timeline {
+	padding: 100px 0 px;
+	text-align: center;
+}
+
 #twitter-feed {
 	padding: 100px 0 90px;
 	text-align: center;	
@@ -1037,6 +1048,8 @@ nav#menu #menu-nav li a:hover {
    Social Area
 ================================================== */
 
+}
+
 #social-area {
     text-align: center;
 }
@@ -1044,13 +1057,15 @@ nav#menu #menu-nav li a:hover {
 #social-area #social ul {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 #social-area #social ul li {
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 15px;
 	list-style: none;
 	cursor: pointer;
+	text-align: center;
 }
 
 #social-area #social ul li:first-child {

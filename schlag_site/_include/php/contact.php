@@ -5,7 +5,7 @@
 
 
 header('Cache-Control: no-cache, must-revalidate');
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+header('Expires: Mon, 26 Jul 2014 05:00:00 GMT');
 header('Content-type: application/json');
 
 $admin_email = 'bullet02@gmail.com'; // Your Email
